@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">SB Admin</a>
+        <a class="navbar-brand" href="../index.php">Nosso CMS</a>
     </div>
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
@@ -25,7 +25,7 @@
                             </span>
                             <div class="media-body">
                                 <h5 class="media-heading">
-                                    <strong>John Smith</strong>
+                                    <strong> Daniela Verissimo</strong>
                                 </h5>
                                 <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
@@ -41,7 +41,7 @@
                             </span>
                             <div class="media-body">
                                 <h5 class="media-heading">
-                                    <strong>John Smith</strong>
+                                    <strong> Daniela Verissimo</strong>
                                 </h5>
                                 <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
@@ -57,7 +57,7 @@
                             </span>
                             <div class="media-body">
                                 <h5 class="media-heading">
-                                    <strong>John Smith</strong>
+                                    <strong> Daniela Verissimo</strong>
                                 </h5>
                                 <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
@@ -98,7 +98,7 @@
             </ul>
         </li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Daniela Verissimo <b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li>
                     <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -122,37 +122,33 @@
             <li>
                 <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
             </li>
-            <li>
-                <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+            <li class="active">
+                <a href="categorias.php"><i class="fa fa-fw fa-folder"></i> Categorias</a>
             </li>
             <li>
-                <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
-            </li>
-            <li>
-                <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
-            </li>
-            <li>
-                <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
-            </li>
-            <li>
-                <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
-            </li>
-            <li>
-                <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
-                <ul id="demo" class="collapse">
+                <a href="javascript:;" data-toggle="collapse" data-target="#posts"><i class="fa fa-fw fa-file"></i> Posts <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="posts" class="collapse">
                     <li>
-                        <a href="#">Dropdown Item</a>
+                        <a href="#">Adicionar post</a>
                     </li>
                     <li>
-                        <a href="#">Dropdown Item</a>
+                        <a href="#">Ver todos os posts</a>
                     </li>
                 </ul>
             </li>
-            <li class="active">
-                <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+            <li>
+                <a href="javascript:;" data-toggle="collapse" data-target="#user"><i class="fa fa-fw fa-users"></i> Usuários <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="user" class="collapse">
+                    <li>
+                        <a href="#">Adicionar usuários</a>
+                    </li>
+                    <li>
+                        <a href="#">Ver todos os usuários</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
+                <a href="index-rtl.html"><i class="fa fa-fw fa-user"></i> Perfil</a>
             </li>
         </ul>
     </div>
