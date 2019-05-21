@@ -25,7 +25,7 @@
                             </span>
                             <div class="media-body">
                                 <h5 class="media-heading">
-                                    <strong> Daniela Verissimo</strong>
+                                    <strong>Gustavo Torrente</strong>
                                 </h5>
                                 <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
@@ -41,7 +41,7 @@
                             </span>
                             <div class="media-body">
                                 <h5 class="media-heading">
-                                    <strong> Daniela Verissimo</strong>
+                                    <strong>John Smith</strong>
                                 </h5>
                                 <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
@@ -57,7 +57,7 @@
                             </span>
                             <div class="media-body">
                                 <h5 class="media-heading">
-                                    <strong> Daniela Verissimo</strong>
+                                    <strong>Gustavo Torrente</strong>
                                 </h5>
                                 <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur...</p>
@@ -98,7 +98,7 @@
             </ul>
         </li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Daniela Verissimo <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li>
                     <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -120,35 +120,37 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
             <li>
-                <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                <a href="../admin/index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
             </li>
-            <li class="active">
-                <a href="categorias.php"><i class="fa fa-fw fa-folder"></i> Categorias</a>
-            </li>
+
             <li>
-                <a href="javascript:;" data-toggle="collapse" data-target="#posts"><i class="fa fa-fw fa-file"></i> Posts <i class="fa fa-fw fa-caret-down"></i></a>
+                <a href="javascript:;" data-toggle="collapse" data-target="#posts"><i class="fa fa-fw fa-arrows-v"></i> Posts <i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="posts" class="collapse">
                     <li>
-                        <a href="#">Adicionar post</a>
+                        <a href="../admin/add_post.php">Adicionar posts</a>
                     </li>
                     <li>
-                        <a href="#">Ver todos os posts</a>
+                        <a href="../admin/posts.php">Ver todos os posts</a>
                     </li>
                 </ul>
             </li>
+
             <li>
-                <a href="javascript:;" data-toggle="collapse" data-target="#user"><i class="fa fa-fw fa-users"></i> Usuários <i class="fa fa-fw fa-caret-down"></i></a>
-                <ul id="user" class="collapse">
+                <a href="javascript:;" data-toggle="collapse" data-target="#users"><i class="fa fa-fw fa-arrows-v"></i> Usuários <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="users" class="collapse">
                     <li>
-                        <a href="#">Adicionar usuários</a>
+                        <a href="#">Adicionar usuário</a>
                     </li>
                     <li>
                         <a href="#">Ver todos os usuários</a>
                     </li>
                 </ul>
             </li>
+            <li class="active">
+                <a href="../admin/categorias.php"><i class="fa fa-fw fa-file"></i>Categorias</a>
+            </li>
             <li>
-                <a href="index-rtl.html"><i class="fa fa-fw fa-user"></i> Perfil</a>
+                <a href="../admin/perfil.php"><i class="fa fa-fw fa-dashboard"></i> Perfil</a>
             </li>
         </ul>
     </div>

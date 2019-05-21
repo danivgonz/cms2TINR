@@ -10,8 +10,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Blank Page
-                            <small>Subheading</small>
+                            Bem vindo ao painel de controle
+                            <small><?php echo $_SESSION['nome']; ?></small>
                         </h1>
                         <ol class="breadcrumb">
                             <li>

@@ -1,3 +1,13 @@
+<?php include "../includes/db.php"; ?>
+
+<?php 
+    if (!isset($_SESSION)) {
+        session_start();
+        echo $_SESSION['nome'];
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
